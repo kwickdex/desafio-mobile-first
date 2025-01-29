@@ -9,7 +9,6 @@
     justify-content: center;
     color: var(--cor-header-branco);
     font-family: var(--font-principal);
-    color: var(--cor-header-branco);
 }
 
 .topicos_lista{
@@ -33,5 +32,4 @@
     padding: 1.2em;
     margin: 9px 2px 0px 2px;
     text-decoration: none;
-    
 }

@@ -37,3 +37,9 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
+.footer{
+  background-color: var(--cor-header-branco);
+  padding: 2em;
+  font-family: var(--font-principal);
+}
