@@ -1,18 +1,37 @@
 .topicos{
     padding: 1.2em;
+    background-image: var(--image-gradient-azul);
     
+}
+
+.topicos_texto{
+    display: flex;
+    justify-content: center;
+    color: var(--cor-header-branco);
+    font-family: var(--font-principal);
+    color: var(--cor-header-branco);
 }
 
 .topicos_lista{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin: 3px;
+
+}
+
+.topicos_lista_text{
+    color: var(--cor-header-branco);
 }
 
 .topicos-textos{
+    color: var(--cor-header-branco);
     font-size: 14px;
     font-family: var(--font-principal);
     background-color: var(--cor-laranja);
+    
     text-decoration: none;
-    padding: 1.5em;
-    margin: 15px 0px 0px 0px;
+    padding: 1.2em;
+    margin: 9px 2px 0px 2px;
+    text-decoration: none;
+    
 }
