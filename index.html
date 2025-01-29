@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" alt="Icone de Lista" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>AluraBooks</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <input type="checkbox" id="menu" class="container_botao" />
+        <label for="menu">
+          <span id="header_taskbar_icon"></span>
+        </label>
+        <ul id="lista-menu">
+          <li class="header_menu_title"><strong>Categorias</strong></li>
+          <li class="header_menu_link">
+            <a style="text-decoration: none" href="">PROGRAMAÇÃO</a>
+          </li>
+          <li class="header_menu_link">
+            <a style="text-decoration: none" href="">FRONT-END</a>
+          </li>
+          <li class="header_menu_link">
+            <a style="text-decoration: none" href="">INFRAESTRUTURA</a>
+          </li>
+          <li class="header_menu_link">
+            <a style="text-decoration: none" href="">BUSINESS</a>
+          </li>
+          <li class="header_menu_link">
+            <a style="text-decoration: none" href="">DESIGN & UX</a>
+          </li>
+        </ul>
+        <img
+          id="header_logo"
+          class="container__imagem"
+          src="./assets/Logo.svg"
+        />
+      </div>
+      <div class="container">
+        <a href="#" class="header_href_icons container__imagem"
+          ><img src="./assets/Vector.png"
+        /></a>
+        <a href="#" class="header_href_icons container__imagem"
+          ><img src="./assets/Sacola.png"
+        /></a>
+        <a href="#" class="header_href_icons container__imagem"
+          ><img src="./assets/Usuario.png" z
+        /></a>
+      </div>
+    </header>
+    <section class="banner">
+      <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+      <p class="banner__paragrafo">
+        Encontre em nossa estante o que precisa para seu desenvolvimento!
+      </p>
+      <div class="banner__searcher">
+        <img class="banner__searcher_pesquisa" src="./assets/Pesquisa.svg" />
+        <input
+          type="search"
+          class="banner__search"
+          size="30"
+          placeholder="Qual será sua próxima leitura?"
+        />
+      </div>
+    </section>
+    <section class="carrosel">
+      <div>
+        <h2 class="carrosel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
+      </div>
+      <div class="swiper">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/assets/ApacheKafka.png" alt="Livro sobre Apache Kafka" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/assets/Portugol.png"
+              alt="Livro sobre Lógica de Programação em Portugol"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/assets/Tuning.png"
+              alt="Livro sobre melhora de aplicação em SQL"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/Javascript.png" alt="Livro sobre Javascript" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/assets/Liderança.png"
+              alt="Livro sobre desenvolvimento pessoal"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="card">
+      <div class="card_first">
+        <div class="card__texto">
+          <h3 class="card__texto_titulo">
+            Talvez você também se interesse por...
+          </h3>
+          <h2 class="card__texto_subtitulo">Angular 11 e Firebase</h2>
+          <p class="card__texto_texto">
+            Construindo uma aplicação integrada com a plataforma do Google.
+          </p>
+        </div>
+        <img class="card__image" src="./assets/Angular-1.png" />
+      </div>
+      <div class="card__botoes">
+        <ul class="botoes">
+          <li>
+            <img
+              class="botoes_item"
+              src="/assets/Favoritos.svg"
+              alt="Favoritar"
+            />
+          </li>
+          <li>
+            <img class="botoes_item" src="/assets/Compras.svg" alt="Comprar" />
+          </li>
+        </ul>
+        <a href="" class="card__image_button">Saiba mais</a>
+      </div>
+    </div>
+
+    <section class="carrosel">
+      <div>
+        <h2 class="carrosel__titulo">MAIS VENDIDOS</h2>
+      </div>
+      <div class="swiper">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/assets/ApacheKafka.png" alt="Livro sobre Apache Kafka" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/assets/Portugol.png"
+              alt="Livro sobre Lógica de Programação em Portugol"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/assets/Tuning.png"
+              alt="Livro sobre melhora de aplicação em SQL"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/Javascript.png" alt="Livro sobre Javascript" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/assets/Liderança.png"
+              alt="Livro sobre desenvolvimento pessoal"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="card">
+      <div class="card_first">
+        <div class="card__texto">
+          <h3 class="card__texto_titulo">
+            <img src="assets/Estrelinhas.png" />
+          </h3>
+          <h3 class="card__texto_titulo">
+            <p>Autora do Mês</p>
+          </h3>
+          <h2 class="card__texto_subtitulo">Juliana Agarikov</h2>
+          <p class="card__texto_texto">
+            Analista de sistemas e escritora, Juliana é especialista em
+            front-end.
+          </p>
+        </div>
+        <img class="card__image" src="./assets/Perfil-escritora 1-1.png" />
+      </div>
+      <div class="card__botoes">
+        <ul class="botoes">
+          <li>
+            <img
+              class="botoes_item"
+              src="/assets/Favoritos.svg"
+              alt="Favoritar"
+            />
+          </li>
+          <li>
+            <img class="botoes_item" src="/assets/Compras.svg" alt="Comprar" />
+          </li>
+        </ul>
+        <a href="" class="card__image_button">Saiba mais</a>
+      </div>
+    </div>
+
+    <section class="topicos">
+      <ul class="topicos_lista">
+        <il class="topicos-textos"><a href="">Android</a></il>
+        <il class="topicos-textos"><a href="">Marketing Digital</a></il>
+        <il class="topicos-textos"><a href="">Agile</a></il>
+      </ul>
+      <ul class="topicos_lista">
+        <il class="topicos-textos"><a href="">Startups</a></il>
+        <il class="topicos-textos"><a href="">HTML & CSS</a></il>
+        <il class="topicos-textos"><a href="">Python</a></il>
+      </ul>
+      <ul class="topicos_lista">
+        <il class="topicos-textos"><a href="">GO</a></il>
+        <il class="topicos-textos"><a href="">Java</a></il>
+      </ul>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        direction: "horizontal",
+        loop: true,
+
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+        },
+
+        spaceBetween: 5,
+        slidesPerView: 3,
+      });
+    </script>
+  </body>
+</html>

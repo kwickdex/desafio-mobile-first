@@ -1,0 +1,62 @@
+#header {
+  background-color: var(--cor-header-branco);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header_logo {
+  width: 32px;
+  height: 32px;
+}
+
+#header_taskbar_icon {
+  width: 48px;
+  height: 48px;
+  background-image: url(../assets/Menu.svg);
+  background-repeat: no-repeat no-repeat;
+  display: inline-block;
+}
+
+.container__imagem {
+  padding: 1em;
+}
+
+#lista-menu {
+  display: none;
+  position: absolute;
+  top: 8.8%;
+  width: 62.5vw;
+}
+
+.container_botao:checked ~ #lista-menu {
+  display: block;
+}
+
+.container_botao {
+  display: none;
+}
+
+.header_href_icons {
+  width: 40px;
+}
+
+.header_menu_link,
+.header_menu_title {
+  font-size: 16px;
+  font-family: var(--font-principal);
+  padding: 1em;
+  background-color: var(--cor-header-branco);
+  text-decoration: none;
+}
+
+.header_menu_link {
+  color: var(--image-gradient-azul);
+  font-weight: 400;
+}
+
+.header_menu_title {
+  color: var(--cor-laranja);
+  font-weight: 700;
+}

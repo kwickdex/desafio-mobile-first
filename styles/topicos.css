@@ -1,0 +1,18 @@
+.topicos{
+    padding: 1.2em;
+    
+}
+
+.topicos_lista{
+    display: flex;
+    justify-content: space-around;
+}
+
+.topicos-textos{
+    font-size: 14px;
+    font-family: var(--font-principal);
+    background-color: var(--cor-laranja);
+    text-decoration: none;
+    padding: 1.5em;
+    margin: 15px 0px 0px 0px;
+}
