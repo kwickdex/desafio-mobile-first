@@ -75,3 +75,55 @@
     width: 12vw;
     margin-top: 0.8em;
 }
+
+@media screen and (min-width: 1024px) {
+    .card{
+        display: flex;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+        margin: 1em;
+        padding: 1em;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 588px;
+        height: 266px;
+        font-family: var(--font-principal);
+        margin: 10px 0px 40px 0px
+    }
+
+    .botoes_item{
+        padding-left: 0.7em;
+        width: 32px;
+        height: 32px;
+        margin-top: 50px;
+    }
+
+    .card__image{
+        padding: 1em 0em 0em 0em;
+        width: 170px;
+        height: 170px;
+    }
+
+    .card__image_button{
+        display: flex;
+        background-color: var(--cor-laranja);
+        text-decoration: none;
+        font-size: 16px;
+        color: var(--cor-header-branco);
+        font-weight: 700;
+        margin: 10px 0px 0px 0px;
+        height: 48px;
+        width: 161px;
+        text-align: center;
+        justify-content: center;
+        padding: 1.35em 0.2em 0em 0.2em;
+    }
+    
+    .card_container{
+        display: flex;
+        justify-content: center;
+        margin: 2px;
+    }
+    
+    
+}

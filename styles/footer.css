@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--cor-header-branco);
+    padding: 2em;
+    font-family: var(--font-principal);
+}
+
+.footer__div{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__alura{
+    font-size: 24px ;
+}
+
+.footer__div__lista{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.footer__titulo{
+    padding-bottom: 30px;
+    font-size: 14px;
+    color: var(--cor-cinza);
+}
+
+.footer__texto{
+    margin: 12px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 14px;
+}
+  

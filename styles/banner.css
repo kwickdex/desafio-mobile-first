@@ -4,7 +4,7 @@
     color: var(--cor-header-branco);
     padding: 1em 0em 1em 0em;
     height: 55vw;
-    width: 100vw;
+    width: 100%;
 }
 .banner__titulo{
     font-size: 18px;
@@ -60,6 +60,10 @@
 
 @media screen and (min-width: 1024px) {
     .banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         font-family: var(--font-principal);
         background: var(--image-gradient-azul);
         color: var(--cor-header-branco);
@@ -69,10 +73,44 @@
     }
     
     .banner__titulo{
-        font-size: 18px;
+        font-size: 36px;
         font-weight: 800;
-        padding: 1.5em 1em 0.5em 1em;
+        padding: 1.5em 1em 0em 1em;
         text-align: center;
     }
 
+    .banner__paragrafo{
+        font-size: 16px;
+        font-weight: 500;
+        padding: 0em 1em 0.5em 1em;
+        text-align: center;
+    }
+
+    .banner__searcher{
+        margin: 30px;
+        border: solid 2.5px;
+        border-radius: 100px;
+        width: 476px;
+        height: 56px;
+
+    }
+
+    .banner__searcher_pesquisa{
+        width: 24px;
+        height: 24px;
+        padding: 17px 0px 0px 0px;
+    }
+    
+    .banner__search{
+        font-size: 16px;
+        color: var(--cor-header-branco);
+        border: none;
+        background-color: transparent;
+        font-weight: 400;
+    }
+
+    .banner__search::placeholder{
+        color: var(--cor-header-branco);
+        text-align: center;
+    }
 }

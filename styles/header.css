@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  width: 100%;
 }
 
 .header_logo {

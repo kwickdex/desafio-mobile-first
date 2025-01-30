@@ -15,6 +15,7 @@
     display: flex;
     justify-content: space-evenly;
     margin: 3px;
+    flex-wrap: wrap;
 
 }
 
@@ -33,3 +34,39 @@
     margin: 9px 2px 0px 2px;
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos{
+        padding: 1.2em;
+        background-image: var(--image-gradient-azul);
+        width: 990px;
+        height: 300px;   
+    }
+
+    .topicos_lista{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3px;
+        flex-wrap: wrap;
+    }
+
+    .topicos-textos{
+        color: var(--cor-header-branco);
+        font-size: 24px;
+        font-family: var(--font-principal);
+        background-color: var(--cor-laranja);
+        
+        text-decoration: none;
+        padding: 1.2em;
+        margin: 9px 2px 0px 2px;
+        text-decoration: none;
+    }
+
+    .topicos_texto{
+        font-size: 24px;
+        margin: 20px 0px 20px 0px;
+    }
+
+
+  }

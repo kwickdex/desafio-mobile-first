@@ -29,3 +29,17 @@
   padding: 0em 0em 0em 0.4em;
   color: var(--image-gradient-azul);
 }
+
+@media screen and (min-widht: 1024px) {
+  .novidades {
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+  }
+  .novidades_titulo {
+    font-family: var(--font-principal);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.2em 0em 0.5em 0em;
+  }
+}

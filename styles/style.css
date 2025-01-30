@@ -6,6 +6,7 @@
 @import url("card.css");
 @import url("topicos.css");
 @import url("novidades.css");
+@import url("footer.css");
 
 
 * {
@@ -27,6 +28,7 @@
   --font-principal: "Poppins", serif;
   --font-secundaria: "Josefin Sans", serif;
   --cor-laranja: #eb9b00;
+  --cor-cinza: #858585;
 }
 
 body {
@@ -40,8 +42,7 @@ body {
   justify-content: space-between;
 }
 
-.footer {
-  background-color: var(--cor-header-branco);
-  padding: 2em;
-  font-family: var(--font-principal);
+.lista_img{
+  padding-right: 10px;
 }
+
