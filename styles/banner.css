@@ -57,3 +57,22 @@
 .banner__search:focus {
     outline: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .banner{
+        font-family: var(--font-principal);
+        background: var(--image-gradient-azul);
+        color: var(--cor-header-branco);
+        padding: 1em 0em 1em 0em;
+        height: 338px;
+        width: 100%;
+    }
+    
+    .banner__titulo{
+        font-size: 18px;
+        font-weight: 800;
+        padding: 1.5em 1em 0.5em 1em;
+        text-align: center;
+    }
+
+}

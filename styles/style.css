@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url("header.css");
 @import url("banner.css");
 @import url("carrosel.css");
 @import url("card.css");
 @import url("topicos.css");
 @import url("novidades.css");
+
 
 * {
   margin: 0;
@@ -14,16 +16,16 @@
   font: inherit;
   vertical-align: baseline;
 }
- 
 
 :root {
   --cor-de-fundo: #ebecee;
   --cor-header-branco: #ffffff;
   --cor-header-startazul: #002f52;
   --cor-header-finalazul: #326589;
-  --image-gradient-azul: linear-gradient(97.54deg, #002F52 35.49%, #326589);
+  --image-gradient-azul: linear-gradient(97.54deg, #002f52 35.49%, #326589);
 
   --font-principal: "Poppins", serif;
+  --font-secundaria: "Josefin Sans", serif;
   --cor-laranja: #eb9b00;
 }
 
@@ -38,7 +40,7 @@ body {
   justify-content: space-between;
 }
 
-.footer{
+.footer {
   background-color: var(--cor-header-branco);
   padding: 2em;
   font-family: var(--font-principal);

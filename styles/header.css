@@ -11,6 +11,10 @@
   height: 32px;
 }
 
+.container__titulo {
+  display: none;
+}
+
 #header_taskbar_icon {
   width: 48px;
   height: 48px;
@@ -26,7 +30,7 @@
 #lista-menu {
   display: none;
   position: absolute;
-  top: 8.5%;
+  top: 8%;
   width: 62.5vw;
 }
 
@@ -59,4 +63,70 @@
 .header_menu_title {
   color: var(--cor-laranja);
   font-weight: 700;
+}
+
+.header__options{
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .container__titulo_negrito, 
+  .container__titulo{
+    display: initial;
+    font-family: var(--font-secundaria);
+    font-size: 30px;
+  }
+
+  .container__titulo{
+    font-weight: 400;
+    display: block23423;
+  }
+
+  .container__titulo{
+    font-weight: 700;
+  }
+
+  #header_taskbar_icon{
+    display: none;
+  }
+
+  #hearth{
+    display: none;
+  }
+
+  .header__options{
+    display: initial;
+    display: flex;
+    list-style: none;
+  }
+
+  .header__options_text {
+    font-size: 16px;
+    margin: 2px 15px 2px 15px;
+    text-transform: uppercase;
+    
+  }
+
+  .header__options_button:checked ~ .lista-menu{
+    display: block;
+  }
+  
+  .header__options_button {
+    display: none;
+  }
+
+  .header_menu_link{
+    margin: -2px 0px 0px 300px;
+    padding: 20px;
+
+    list-style: none;
+  }
+
+  #lista-menu {
+    position: absolute;
+    top: 4.6%;
+    width: 62.5vw;
+  }
+
+
 }
